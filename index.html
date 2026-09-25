@@ -322,6 +322,20 @@
   .fitcard.yes .mark{color:var(--jade);}
   .fitcard.no .mark{color:var(--wine);}
 
+  /* ---------- edge (differentiators) ---------- */
+  .edgegrid{display:grid; grid-template-columns:1fr 1fr; gap:22px;}
+  @media (max-width:820px){ .edgegrid{grid-template-columns:1fr;} }
+  .edgecard{
+    background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--jade);
+    border-radius:6px; padding:26px;
+  }
+  .edgecard h3{font-size:1.1rem; font-weight:700; font-family:"Be Vietnam Pro",sans-serif; margin-bottom:10px;}
+  .edgecard p{color:var(--ink-soft); font-size:.94rem;}
+  .edgecard ul{margin:10px 0 0; padding:0; list-style:none; display:flex; flex-direction:column; gap:8px;}
+  .edgecard li{display:flex; gap:10px; font-size:.92rem; color:var(--ink-soft);}
+  .edgecard li .mark{color:var(--jade);}
+  .edgecard .tag{font-size:.76rem; color:var(--gold); font-weight:600; display:block; margin-bottom:8px;}
+
   /* ---------- faq ---------- */
   .faq{display:flex; flex-direction:column;}
   .faqitem{border-top:1px solid var(--line); padding:22px 0;}
@@ -584,6 +598,42 @@
           <div class="kv"><span>CAC</span><b>Customer Acquisition Cost — chi phí để có một khách hàng mới</b></div>
           <div class="kv"><span>Cơ chế</span><b>LVC ↑ → trần CAC ↑ → thắng thầu quảng cáo</b></div>
           <div class="caveat">Module 3 xây dựng phần "Back-end" (giữ chân, bán thêm) trước khi tối ưu phần quảng cáo — để mỗi đồng chi ra đều có nền tảng thu hồi.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDGE -->
+  <section class="panel">
+    <div class="wrap">
+      <div class="sechead">
+        <span class="eyebrow">Vì sao chọn Coaching 1:1 tại đây</span>
+        <h2>Không phải học một lần rồi để đó — mà là hệ thống đồng hành mỗi ngày</h2>
+      </div>
+      <div class="edgegrid">
+        <div class="edgecard">
+          <h3>Làm trực tiếp trên tiệm của bạn</h3>
+          <p>Không học qua ví dụ chung chung. Mọi buổi coaching đi thẳng vào tình trạng thật của tiệm bạn, tối ưu hoá để ra kết quả tốt nhất — không lan man.</p>
+        </div>
+        <div class="edgecard">
+          <h3>Đi full A–Z ra doanh thu thực tế</h3>
+          <ul>
+            <li><span class="mark">✓</span> Marketing kiếm đúng tệp khách hàng</li>
+            <li><span class="mark">✓</span> Bán giá cao, không bị ép giá</li>
+            <li><span class="mark">✓</span> Upsell — tăng bill mỗi khách</li>
+            <li><span class="mark">✓</span> Chăm sóc khách hàng quay lại</li>
+            <li><span class="mark">✓</span> Hệ thống khách giới thiệu khách</li>
+            <li><span class="mark">✓</span> Tuyển &amp; giữ thợ ổn định cho tiệm</li>
+          </ul>
+        </div>
+        <div class="edgecard">
+          <span class="tag">Bonus khi tham gia Membership 12 tháng</span>
+          <h3>Học từ nhiều tiệm khác, không chỉ tiệm của bạn</h3>
+          <p>Quan sát trực tiếp buổi 1:1 của các chủ tiệm khác trong suốt 12 tháng — học cách họ xử lý khách ít, giá thấp, khó upsell, đồng thời giao lưu và kết nối kinh nghiệm kinh doanh thực tế.</p>
+        </div>
+        <div class="edgecard">
+          <h3>Môi trường "ép tăng trưởng" mỗi ngày</h3>
+          <p>Luôn có người theo sát, nhắc việc, làm tới đâu sửa tới đó — giữ kỷ luật liên tục thay vì học xong rồi để đó. Khác biệt lớn nhất: không phải học một lần, mà được đồng hành tăng trưởng mỗi ngày.</p>
         </div>
       </div>
     </div>
